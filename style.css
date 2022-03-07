@@ -62,7 +62,7 @@ a.comein:hover{
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-size: 4vmax;
   color: rgb(245, 245, 240);
   margin-top: 1vh;
@@ -73,7 +73,7 @@ a.comein:hover{
   width: 100%;
   height: 35vh;
   flex-wrap: wrap;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.3vmax;
   background-color: rgba(219, 219, 219);
   padding-left: 3vw;
@@ -250,7 +250,7 @@ a.menubar:link, a.menubar:visited{
 .relaxtexts{
   display: flex;
   font-family: 'Lato', sans-serif;
-  font-size: 1.8vmax;
+  font-size: 2.2vmax;
   line-height: 1.6;
   letter-spacing: 0.2vmin;
   color: rgb(245, 245, 240);
