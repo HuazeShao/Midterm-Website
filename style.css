@@ -1,0 +1,386 @@
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+  padding:0px;
+  margin:0px;
+}
+
+body{
+  background-color: rgba(89, 87, 78, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Welcome Page*/
+@keyframes fadein{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fadein{
+  animation-name: fadein;
+  animation-duration: 4s;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  color: rgb(199, 199, 197);
+  font-size: 5vmax;
+}
+
+a.comein:link, a.comein:visited{
+  text-decoration: none;
+  color: rgb(199, 199, 197);
+  font-size: 3.5vmax;
+}
+
+a.comein:hover{
+  font-size: 3vmax;
+}
+
+/*home page*/
+.welcome{
+  width:90vw;
+  height: 50.6vw;
+  padding-top: 9vh;
+
+}
+
+.video1{
+  width: 100%;
+  height: 100%;
+}
+
+.Title{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 4vmax;
+  color: rgb(245, 245, 240);
+  margin-top: 1vh;
+}
+
+.Menu01{
+  display: flex;
+  width: 100%;
+  height: 35vh;
+  flex-wrap: wrap;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3vmax;
+  background-color: rgba(219, 219, 219);
+  padding-left: 3vw;
+  padding-top: 1.6vw;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.h{
+  margin-right: 17.7vh;
+
+}
+.a{
+  margin-right: 17.7vh;
+}
+.r{
+  margin-right: 17.7vh;
+}
+.o{
+  margin-right: 17.7vh;
+}
+
+/*about page*/
+.Menu{
+  display: flex;
+  position: fixed;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 16vh;
+  font-size: 1.35vmax;
+  padding-left: 3vw;
+  padding-top: 2vw;
+  background-color: rgb(199, 199, 197);
+}
+
+a.menubar:link, a.menubar:visited{
+  color: rgb(27, 27, 27);
+
+}
+
+.AbtTxt{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.abtweb{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(245, 245, 240);
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vmax;
+  color: rgb(245, 245, 240);                                                                                                        ew
+}
+
+.abtwebtxt{
+  width: 55vw;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(245, 245, 240);
+  align-items: center;
+  height: 80vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4vmax;
+  line-height: 1.6;
+  letter-spacing: 0.12vmin;
+  padding: 7vw;
+  color: rgb(245, 245, 240);
+}
+
+.whatweb{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(245, 245, 240);
+  width: 45vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vmax;
+  color: rgb(245, 245, 240);
+}
+
+.whatwebtxt{
+  width: 55vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(245, 245, 240);
+  height: 80vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4vmax;
+  line-height: 1.6;
+  letter-spacing: 0.12vmin;
+  padding: 7vw;
+  color: rgb(245, 245, 240);
+}
+
+/*Relax Page*/
+.meditationpage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relaxationtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  border-bottom: 1px solid rgb(245, 245, 240);
+  color: rgb(245, 245, 240);
+  font-size: 3vmax;
+  font-family: 'Lato', sans-serif;
+  border-right: 1px solid rgb(245, 245, 240);
+}
+
+.meditation{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid rgb(245, 245, 240);
+}
+
+.meditationmenu{
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid rgb(245, 245, 240);
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.12vmin;
+  color: rgb(245, 245, 240);
+  padding-left: 8vmax;
+}
+
+.meditationsubmenu01{
+  display: flex;
+  width: 40vw;
+  height: 7vmax;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 2.5vmax;
+}
+
+.meditationsubmenu{
+  display: flex;
+  width: 30vw;
+  height: 7vmax;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 1.7vmax;
+}
+
+.relaxtexts{
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8vmax;
+  line-height: 1.6;
+  letter-spacing: 0.2vmin;
+  color: rgb(245, 245, 240);
+}
+
+.emergentcalmdownvideo{
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+
+.videoemergent{
+  width:90vw;
+  height: 50.6vw;
+}
+
+.meditationaudio{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2vh;
+  border-bottom: 1px solid rgb(245, 245, 240);
+}
+
+.meditationspotify{
+  width:90vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+/*Other Page*/
+.minititle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  border-bottom: 1px solid rgb(245, 245, 240);
+  color: rgb(245, 245, 240);
+  font-size: 3vmax;
+  font-family: 'Lato', sans-serif;
+}
+
+.websites{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Lato', sans-serif;
+  padding-top: 6vh;
+  padding-bottom: 12vh;
+  border-bottom: 1px solid rgb(245, 245, 240);
+
+}
+
+.subtxt{
+  font-family: 'Lato', sans-serif;
+  color: rgb(245, 245, 240);
+  font-size: 2.3vmax;
+  letter-spacing: 0.2vmin;
+}
+
+.subweb{
+  width: 60vw;
+  border-bottom: 1px solid rgb(245, 245, 240);
+}
+
+a.subweb:link, a:visited{
+  color: rgb(245, 245, 240);
+  font-size: 1.7vmax;
+  line-height: 2;
+  letter-spacing: 0.12vmin;
+}
+
+a.subweb:hover{
+  text-decoration: none;
+  font-size: 2vmax;
+}
+
+.playlists{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 6vh;
+  padding-bottom: 12vh;
+  border-bottom: 1px solid rgb(245, 245, 240);
+}
+
+.subplaylists{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  color: rgb(245, 245, 240);
+  font-size: 2.3vmax;
+  letter-spacing: 0.2vmin;
+  width: 100vw;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  padding-top: 3vh;
+}
+
+.documentary{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6vh;
+  padding-bottom: 12vh;
+}
+
+.imagesubholder img{
+  width: 31.5vw;;
+  height: 35vh;
+  object-fit: cover;
+  padding: 1vmax;
+}
