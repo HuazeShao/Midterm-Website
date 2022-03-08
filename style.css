@@ -20,6 +20,10 @@ body{
   to {opacity: 1;}
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .fadein{
   animation-name: fadein;
   animation-duration: 4s;
