@@ -46,6 +46,8 @@ a.comein:link, a.comein:visited{
 
 a.comein:hover{
   font-size: 3vmax;
+  border-bottom: 1px solid rgb(199, 199, 197);
+  transition: 1s;
 }
 
 /*home page*/
@@ -78,7 +80,7 @@ a.comein:hover{
   height: 35vh;
   flex-wrap: wrap;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.3vmax;
+  font-size: 1.17vmax;
   background-color: rgba(219, 219, 219);
   padding-left: 3vw;
   padding-top: 1.6vw;
@@ -94,17 +96,17 @@ a:hover{
 }
 
 .h{
-  margin-right: 17.7vh;
+  margin-right: 7.4vw;
 
 }
 .a{
-  margin-right: 17.7vh;
+  margin-right: 7.4vw;
 }
 .r{
-  margin-right: 17.7vh;
+  margin-right: 7.4vw;
 }
 .o{
-  margin-right: 17.7vh;
+  margin-right: 7.4vw;
 }
 
 /*about page*/
@@ -239,7 +241,7 @@ a.menubar:link, a.menubar:visited{
   height: 7vmax;
   flex-wrap: wrap;
   justify-content: flex-start;
-  font-size: 2.5vmax;
+  font-size: 2.2vmax;
 }
 
 .meditationsubmenu{
@@ -248,7 +250,7 @@ a.menubar:link, a.menubar:visited{
   height: 7vmax;
   flex-wrap: wrap;
   justify-content: flex-start;
-  font-size: 1.7vmax;
+  font-size: 1.2vmax;
 }
 
 .relaxtexts{
@@ -339,6 +341,7 @@ a.subweb:link, a:visited{
 a.subweb:hover{
   text-decoration: none;
   font-size: 2vmax;
+  transition: 0.5s;
 }
 
 .playlists{
@@ -383,8 +386,13 @@ a.subweb:hover{
 }
 
 .imagesubholder img{
-  width: 31.5vw;;
+  width: 31.5vw;
   height: 35vh;
   object-fit: cover;
   padding: 1vmax;
+}
+
+.imagesubholder:hover{
+  opacity: 0.45;
+  transition: 0.6s;
 }
